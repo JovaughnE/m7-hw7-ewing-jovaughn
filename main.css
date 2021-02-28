@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+br {
+    padding: 10px;
+    margin: 10px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,43 +14,38 @@ body {
 /* Style the header */
 header {
   background-color: #3eb5ca;
-  padding: 30px;
+  padding: 30px;  
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   color: white;
 }
 
 /* Container for flexboxes */
 section {
   display: -webkit-flex;
-  display: flex;
+  display: block;
+  width: 100%;
 }
 
-/* Style the navigation menu 
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #ccc;
-  padding: 20px;
-}*/
+section h2 {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
 
-/* Style the list inside the menu 
-nav ul {
-  list-style-type: none;
-  padding: 0;
+span {
+    color: rgb(35, 35, 228);
 }
-*/
-/* Style the content 
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #3eb5ca;
-  padding: 10px;
+
+.city-weather {
+    text-align: center;
 }
-*/
-/* Style the footer */
+
+footer {
+    font-size: 35px;
+}
+
 footer {
   background-color: #777;
   padding: 10px;
